@@ -13,7 +13,7 @@ In essence, the page downloads an image, determines its size and duration, and t
 
 **Image:**
 
-<img src="screenshot.png" style="border-radius: 10px;">
+<img src="screenshot.png">
 
 **Next Steps**
 
