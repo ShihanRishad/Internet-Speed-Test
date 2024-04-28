@@ -13,7 +13,7 @@ In essence, the page downloads an image, determines its size and duration, and t
 
 **Image:**
 
-[Screenshot of the project](screenshot.png)
+<img src="screenshot.png">
 
 **Next Steps**
 
