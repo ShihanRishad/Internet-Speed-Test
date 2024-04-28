@@ -5,7 +5,7 @@
 This project provides a simple way to test your internet's download speed. With just a click, you can get a quick assessment of your connection's performance.
 
 **Open the Test Page:**
-    Navigate to the `Network speed test.html` file within the cloned repository and open it in your web browser.
+    Navigate to the `Network speed test.html` file and open it in your web browser.
 
 **How it Works**
 
