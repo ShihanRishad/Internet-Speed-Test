@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <head>
+  <meta charset="UTF-8">
+  <title>Network Speed Test</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+  <div class="container">
+    <div class="head">
+     <h1>Network Speed Test</h1>
+    </div>
+
+    <div id="results">
+      <p class="speed speedb"><span>Speed in Bytes: </span><span id="speedBps" class="speedspan"></span></p>
+      <p class="speed speedkb"><span>Speed in KB: </span><span id="speedKbps" class="speedspan"></span></p>
+      <p class="speed speedmb"><span>Speed in MB: </span><span id="speedMbps" class="speedspan"></span></p>
+    </div>
+    <button class="button" onclick="testNetworkSpeed()">Check Speed</button>
+
+  </div>
+       <div id="progressBarContainer">
+     <div id="progressBar"></div>
+    </div>
+   
+   <div class="backcredit">Background image by Bing AI</div>
+
+  <script src="index.js"></script>
+</body>
+</html>
