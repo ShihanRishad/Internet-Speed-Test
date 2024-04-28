@@ -13,8 +13,7 @@ In essence, the page downloads an image, determines its size and duration, and t
 
 **Image:**
 
-[Screenshot of the project] (
-Speed test - GitHub/screenshot.png)
+[Screenshot of the project] (Speed%20test%20-%20GitHub/screenshot.png)
 
 **Next Steps**
 
