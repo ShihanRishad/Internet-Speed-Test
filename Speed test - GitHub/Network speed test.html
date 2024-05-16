@@ -7,22 +7,38 @@
 <link rel="stylesheet" type="text/css" href="style.css">
  </head>
  <body>
-  <div class="container">
-    <div class="head">
-     <h1>Network Speed Test</h1>
-    </div>
+   <div class="container">
+     <div class="head">
+      <h1>Network Speed Test</h1>
+     </div>
 
     <div id="results">
       <p class="speed speedb"><span>Speed in Bytes: </span><span id="speedBps" class="speedspan"></span></p>
       <p class="speed speedkb"><span>Speed in KB: </span><span id="speedKbps" class="speedspan"></span></p>
       <p class="speed speedmb"><span>Speed in MB: </span><span id="speedMbps" class="speedspan"></span></p>
     </div>
+     
+     
+<div id="speedometer">
+    <div class="wrapper">
+        <div class="indicator-wrapper">
+          <div id="speedbar"></div>
+        </div>
+      <div id="bars">
+        <div class="bar bar-1"></div>
+        <div class="bar bar-2"></div>
+        <div class="bar bar-3"></div>
+        <div class="bar bar-4"></div>
+      </div>
+    </div>
+</div>
     <button class="button" onclick="testNetworkSpeed()">Check Speed</button>
 
   </div>
        <div id="progressBarContainer">
      <div id="progressBar"></div>
     </div>
+   
    
    <div class="backcredit">Background image by Bing AI</div>
 
